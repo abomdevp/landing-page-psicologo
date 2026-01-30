@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Psicología - Psicología clínica y bienestar emocional. Terapia en línea y presencial para ayudarte a encontrar el equilibrio.">
+
+    <!-- Título optimizado para SEO -->
+    <title>Psicología | Bienestar Emocional y Psicología Clínica</title>
+
+    <!-- Fuentes de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Iconos -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+
+    <!-- NAV: Navegación principal -->
+    <header class="header" id="header">
+        <div class="container header__container">
+            <a href="#" class="logo" aria-label="Inicio">
+                Psicólogo Alejandro Ríos
+            </a>
+
+            <nav class="nav" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#servicios" class="nav__link">Terapias</a></li>
+                    <li class="nav__item"><a href="#funcionamiento" class="nav__link">Proceso</a></li>
+                    <li class="nav__item"><a href="#testimonios" class="nav__link">Historias</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <a href="#cta-final" class="btn btn--primary btn--sm">Agendar una Cita</a>
+            </div>
+
+            <!-- Botón de menú móvil -->
+            <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menú">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO: Propuesta de valor principal -->
+        <section class="hero section">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <span class="badge">Primera consulta con 23% descuento</span>
+                    <h1 class="hero__title">Encuentra el camino hacia tu <span class="gradient-text">paz
+                            interior.</span></h1>
+                    <p class="hero__description">
+                        Espacio seguro de terapia psicológica online y presencial. Te acompaño en tu proceso de
+                        autoconocimiento y sanación emocional.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#cta-final" class="btn btn--primary btn--lg">Reservar una Sesión</a>
+                        <a href="#servicios" class="btn btn--text">
+                            <i data-feather="arrow-right-circle"></i> Conocer más
+                        </a>
+                    </div>
+                    <div class="hero__metrics">
+                        <div class="metric">
+                            <span class="metric__value">+176</span>
+                            <span class="metric__label">Pacientes Satisfechos</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric__value">4+</span>
+                            <span class="metric__label">Años de Experiencia</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Visual del Hero (Abstracto/Calm) -->
+                <div class="hero__visual">
+                    <div class="wellness-visual">
+                        <div class="circle-bg"></div>
+                        <div class="calm-image">
+                            <!-- En un proyecto real aquí iría una foto de alta calidad -->
+                            <div class="calm-image-placeholder"></div>
+                        </div>
+
+                        <!-- Elemento flotante decorativo -->
+                        <div class="floating-card">
+                            <div class="icon-box success"><i data-feather="heart"></i></div>
+                            <div>
+                                <strong>Bienestar</strong>
+                                <span style="font-size: 0.875rem; color: #64748b;">Enfoque en el paciente</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-card secondary">
+                            <div class="icon-box calm"><i data-feather="heart"></i></div>
+                            <div>
+                                <strong>Empatía</strong>
+                                <span style="font-size: 0.875rem; color: #64748b;">Escucha activa</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOGOS: Prueba social -->
+        <section class="clients section">
+            <div class="container">
+                <p class="clients__text">Reconocidos por instituciones de salud</p>
+                <div class="clients__grid">
+                    <span class="client-logo">
+                        <img src="img/integramedica.webp" alt="Logo IntegraMédica" style="max-height: 60px; width: auto;" />
+                    </span>
+                    <span class="client-logo">
+                        <img src="img/redsalud.jpg" alt="Logo RedSalud" style="max-height: 60px; width: auto;" />
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFICIOS: Grid de características -->
+        <section class="features section" id="servicios">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Mis Servicios</h2>
+                    <p class="section__subtitle">Soluciones personalizadas para cada etapa de tu vida.</p>
+                </div>
+
+                <div class="features__grid">
+                    <!-- Feature 1 -->
+                    <article class="feature-card fade-up">
+                        <div class="feature-card__icon blue">
+                            <i data-feather="user"></i>
+                        </div>
+                        <h3 class="feature-card__title">Terapia Individual</h3>
+                        <p class="feature-card__desc">Enfocado en trabajar la ansiedad, depresión o
+                            crecimiento personal.</p>
+                    </article>
+
+                    <!-- Feature 2 -->
+                    <article class="feature-card fade-up" style="transition-delay: 100ms;">
+                        <div class="feature-card__icon purple">
+                            <i data-feather="users"></i>
+                        </div>
+                        <h3 class="feature-card__title">Terapia de Pareja</h3>
+                        <p class="feature-card__desc">Enfocado en mejorar la comunicación y resolver conflictos para
+                            construir una
+                            relación más fuerte y saludable.</p>
+                    </article>
+
+                    <!-- Feature 3 -->
+                    <article class="feature-card fade-up" style="transition-delay: 200ms;">
+                        <div class="feature-card__icon orange">
+                            <i data-feather="user"></i>
+                        </div>
+                        <h3 class="feature-card__title">Mindfulness y Relajación</h3>
+                        <p class="feature-card__desc">Enfocado en técnicas de atención plena para reducir el estrés y
+                            conectar con
+                            el momento presente.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CÓMO FUNCIONA: Pasos -->
+        <section class="how-it-works section section--alt" id="funcionamiento">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Tu bienestar empieza hoy</h2>
+                </div>
+
+                <div class="steps">
+                    <!-- Paso 1 -->
+                    <div class="step">
+                        <div class="step__number">01</div>
+                        <h3 class="step__title">Agenda tu cita</h3>
+                        <p class="step__desc">Rellena el formulario de abajo y recibe toda la información en tu correo.
+                        </p>
+                    </div>
+                    <!-- Línea conectora (visual) -->
+                    <div class="step-connector"></div>
+
+                    <!-- Paso 2 -->
+                    <div class="step">
+                        <div class="step__number">02</div>
+                        <h3 class="step__title">Conecta en sesión</h3>
+                        <p class="step__desc">Inicia tu terapia en un entorno seguro y profesional, ya sea online o
+                            presencial.</p>
+                    </div>
+
+                    <div class="step-connector"></div>
+
+                    <!-- Paso 3 -->
+                    <div class="step">
+                        <div class="step__number">03</div>
+                        <h3 class="step__title">Sana y Crece</h3>
+                        <p class="step__desc">Recibe herramientas prácticas y el apoyo necesario para tu evolución
+                            personal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <section class="cta section" id="cta-final">
+            <div class="container">
+                <div class="cta__card">
+                    <div class="cta__content">
+                        <h2 class="cta__title">Prioriza tu salud mental</h2>
+                        <p class="cta__desc">Da el primer paso hacia una vida más plena. Tu primera sesión es la más
+                            importante.</p>
+                        <form class="cta__form expanded-form"
+                            onsubmit="event.preventDefault(); alert('¡Gracias! Nos pondremos en contacto contigo pronto.');">
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="nombre" class="sr-only">Nombre</label>
+                                    <input type="text" id="nombre" placeholder="Nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="apellido" class="sr-only">Apellido</label>
+                                    <input type="text" id="apellido" placeholder="Apellido" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="sr-only">Correo electrónico</label>
+                                    <input type="email" id="email" placeholder="Correo electrónico" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefono" class="sr-only">Teléfono</label>
+                                    <input type="tel" id="telefono" placeholder="Teléfono" required>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label for="motivo" class="sr-only">Motivo de consulta</label>
+                                    <select id="motivo" required>
+                                        <option value="" disabled selected>Motivo de consulta</option>
+                                        <option value="individual">Terapia Individual</option>
+                                        <option value="pareja">Terapia de Pareja</option>
+                                        <option value="ansiedad">Ansiedad</option>
+                                        <option value="estres">Estrés</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label for="mensaje" class="sr-only">Mensaje (Opcional)</label>
+                                    <textarea id="mensaje" rows="3" placeholder="Mensaje breve (opcional)"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn--primary"
+                                style="background: #0f172a; width: 100%;">Agendar Cita</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__col">
+                <a href="#" class="logo">Alejandro Ríos</a>
+                <p>Acompañandote en cada paso de tu camino emocional.</p>
+            </div>
+
+            <div class="footer__col">
+                <h4>Servicios</h4>
+                <ul>
+                    <li><a href="#cta-final">Terapia Individual</a></li>
+                    <li><a href="#cta-final">Terapia de Pareja</a></li>
+                    <li><a href="#cta-final">Mindfulness y Relajación</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Centro</h4>
+                <ul>
+                    <li><a href="#">Nuestro Equipo</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Aviso Legal</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <p>&copy; Desarrollado por Francisco González. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
